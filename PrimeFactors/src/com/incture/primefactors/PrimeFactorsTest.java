@@ -29,6 +29,7 @@ public class PrimeFactorsTest {
 		assertEquals(asList(2, 5), compute(10));
 		assertEquals(asList(11), compute(11));
 		assertEquals(asList(2, 2, 3), compute(12));
+		assertEquals(asList(13), compute(13));
 		assertEquals(asList(2, 2, 3, 5, 11, 19), compute(2 * 2 * 3 * 5 * 11 * 19));
 	}
 }
